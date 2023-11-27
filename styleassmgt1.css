@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background: black;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.thumbnailsrecent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.oldest {
+  color: white;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+.popular {
+  color: white;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+.recent {
+  color: white;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 400px;
+}
