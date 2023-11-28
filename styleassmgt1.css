@@ -42,3 +42,16 @@ body {
   margin-bottom: 50px;
   width: 400px;
 }
+.button {
+  display: flex;
+  flex-wrap: wrap;
+}
+.back-button {
+  color: white;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 400px;
+}
