@@ -10,20 +10,6 @@ function createImage(src, alt) {
   return img;
 }
 
-function displayDiv(thumbnailId) {
-  // Hide all detail divs
-  var detailDivs = document.getElementsByClassName("image-details");
-  for (var i = 0; i < detailDivs.length; i++) {
-    detailDivs[i].style.display = "none";
-  }
-
-  // Show the selected detail div
-  var selectedDetailDiv = document.getElementById("detail_" + thumbnailId);
-  if (selectedDetailDiv) {
-    selectedDetailDiv.style.display = "block";
-  }
-}
-
 function redirectToIndex2() {
   window.location.href = "index2.html";
 }
