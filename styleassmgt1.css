@@ -55,4 +55,20 @@ body {
   margin-bottom: 50px;
   margin-left: 69px;
   width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.image-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+#detail_tumbnail1 h2 {
+  font-size: 37px;
+}
+
+/*.image-details {
+  display: none;
 }
