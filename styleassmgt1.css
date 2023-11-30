@@ -66,14 +66,32 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
 }
 #detail_tumbnail1 h2 {
   font-size: 37px;
 }
-
-#detail_thumbnail1 {
-  display: none;
+iframe,
+img {
+  max-width: 100%;
+  height: 100;
+  display: block;
+  margin: 10px auto;
 }
-#detail_thumbnail2 {
-  display: none;
+
+h2,
+p {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
