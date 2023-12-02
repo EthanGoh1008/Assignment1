@@ -108,3 +108,71 @@ p {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+#myFrm {
+  color: white;
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+}
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+select[id="carDropdown"] {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #007bff;
+}
+
+.clear {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color: #007bff;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 30px;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}

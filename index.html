@@ -137,5 +137,40 @@
     </div>
 
     <script src="jvsassgmt1.js"></script>
+
+    <form id="myFrm">
+      <input type="text" placeholder="Enter Name" id="txtName" required />
+      <select id="carDropdown" required>
+        <option value="vector w8">Vector W8</option>
+        <option value="corvette">Corvette</option>
+        <option value="toyota 22r">Toyota 22R</option>
+        <option value="pagani">Pagani</option>
+        <option value="nissan r35">Nissan R35</option>
+        <option value="mercedes clk gtr">Mercedes CLK GTR</option>
+        <option value="keiichi tsuchiya">Keiichi Tsuchiya</option>
+        <option value="bmw e30 m3">BMW E30 M3</option>
+        <option value="mazda rx7">Mazda RX7</option>
+        <option value="lexus lfa">Lexus LFA</option>
+        <option value="dodge viper">Dodge Viper</option>
+        <option value="mclaren f1">Mclaren F1</option>
+        <option value="mitsubishi evo">Mitsubishi Evo</option>
+        <option value="porsche 930 911">Porsche 930 911</option>
+        <option value="nissan r23">Nissan R32</option>
+        <option value="honda nsx">Honda NSX</option>
+      </select>
+      <input type="text" placeholder="Review" id="txtReview" required />
+      <input type="submit" />
+      <button class="clear" onclick="clearResponses()">Clear</button>
+
+      <h1>Reviews</h1>
+      <table id="review-table">
+        <thead>
+          <th>Name</th>
+          <th>Video</th>
+          <th>Review</th>
+        </thead>
+        <tbody id="review-table-body"></tbody>
+      </table>
+    </form>
   </body>
 </html>
