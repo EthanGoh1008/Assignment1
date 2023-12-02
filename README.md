@@ -1,5 +1,8 @@
 # Assignment1
 
+Figma:
+https://www.figma.com/file/8ZVJLzkVlsI1Z0lbNifKva/FED-wireframe?type=design&node-id=0-1&mode=design&t=cdefEgV3hyyDwgXi-0
+
 This is my Front End Development Assignment, in this ReadMe file I will be sharing about my website that provides information about iconic cars.
 
 The user audience intent and purpose:
