@@ -1,3 +1,4 @@
+// this code displays a certain index depending on the image clicked//
 for (let i = 1; i <= 16; i++) {
   window["redirectToIndex" + i] = function () {
     window.location.href = "index" + i + ".html";
@@ -17,17 +18,17 @@ function showRecent() {
   hideAllImages();
   showImages("recenttn");
 }
-
+//hides all of images//
 function hideAllImages() {
   const images = document.querySelectorAll(".thumbnailsall img");
   images.forEach((img) => (img.style.display = "none"));
 }
-
+//finds index based on class of image//
 function showImages(className) {
   const imagesToShow = document.querySelectorAll(`.${className}`);
   imagesToShow.forEach((img) => (img.style.display = "block"));
 }
-
+//review section//
 document.addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -57,7 +58,7 @@ function Review(usrName, selectedCar, txtReview) {
   this.car = selectedCar;
   this.review = txtReview;
 }
-
+//updates any reviews that are added to the website
 function refreshReviewTable() {
   let reviewTable = document.getElementById("review-table-body");
   let reviewList = [];
@@ -73,6 +74,7 @@ function refreshReviewTable() {
     reviewTable.innerHTML = reviewData;
   }
 }
+//resets the comments that have been added
 function clearResponses() {
   localStorage.removeItem("reviewList");
 }
