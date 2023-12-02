@@ -10,7 +10,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.thumbnailsrecent {
+.thumbnailsall {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
